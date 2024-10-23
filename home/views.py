@@ -10,3 +10,6 @@ def generic(request):
 
 def elements(request):
     return render(request, 'elements.html', {} )
+
+# def stories(request):
+#    return render(request, 'stories.html', {} )
